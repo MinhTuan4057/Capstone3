@@ -1,0 +1,3 @@
+Nộp bài tâp capstone đề hai
+Tên thành viên tạo folder chính: Nguyễn Minh Tuấn, phụ trách làm phần "Services", "Gallery", "Pages/Blog".
+Tên thành viên cùng làm chung: Trần Nhị Huynh, phụ trách làm phần "Home", "About", "Contact".
