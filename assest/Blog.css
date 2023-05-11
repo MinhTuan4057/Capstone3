@@ -1,0 +1,195 @@
+
+body {
+    background-color: #f9f8fd;
+}/* Portfolio */
+.portfolio {
+    margin-bottom: 12px;
+  }
+  .portfolio__contain {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 25px;
+  }
+  .portfolio__title {
+    text-align: center;
+    padding: 50px 0 44px 0px;
+  }
+  .portfolio__title h2 {
+    font-size: 1.8rem;
+    color: var(--secondary);
+    margin-bottom: 7px;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .portfolio__title h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--heading-color);
+  }
+  body.dark .portfolio__title h1 {
+    color: white;
+  }
+.car__hover {
+    transition: transform linear 0.2s;
+    will-change: transform;
+}
+.car__hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+.car__img {}
+.car__img a {
+    text-decoration: none;
+}
+.car__img img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.portfolio__deli {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: black;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    line-height: 1.3;
+    transition: .3s ease;
+}
+.portfolio__deli:hover {
+    color: var(--primary-color)
+}
+.portlio__content {
+    width: 314px;
+    margin-bottom: 16px;
+}
+.portlio__content a {
+    text-decoration: none;
+}
+.w3 {
+    font-size: 1.8rem;
+    color: black;
+    transition: .3s ease;
+}
+.w3:hover {
+    color: var(--secondary);
+}
+.portfolio__year {
+    font-size: 1.6rem;
+    margin-left: 5px;
+    color: #a9a9a9;
+}
+.portfolio__frame {
+    background: white;
+    padding: 34px 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+    margin-bottom: 33px;
+}
+
+.portfolio__nav {
+    padding: 10px 0 20px;
+}
+.portfolio__nex {
+    display: flex;
+    list-style: none;
+}
+.portfolio__nex li {
+    font-size: 2rem;
+    margin-right: 13px;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+.portfolio__nex a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: var(--heading-color);
+    transition: .3s ease;
+}
+.portfolio__nex a:hover {
+    color: var(--primary-color);
+}
+
+body.dark .portfolio {
+    background-color: #222222;
+}
+body.dark .portfolio__frame {
+    background-color: #151515;
+}
+body.dark .w3 {
+    color: #dddddd;
+}
+body.dark .portfolio__deli {
+    color: #dddddd;
+}
+body.dark .w3:hover {
+    color: var(--secondary);
+}
+body.dark .portfolio__deli:hover {
+    color: var(--primary-color)
+}
+body.dark .portfolio__nex a {
+    color: #dddddd;
+}
+body.dark .portfolio__nex a:hover {
+    color: var(--primary-color);
+}
+
+/* Responsive */
+@media only screen and (min-width: 1280px) and (max-width: 1490px) {
+    .portfolio__contain {
+        max-width: 1200px;
+        margin: auto;
+        padding: 0 15px;
+      }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+    .portfolio__contain {
+        padding: 0 45px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .portfolio__contain {
+        max-width: 960px;
+        padding: 0 15px;
+        margin: auto;
+    }
+  .portlio__content {
+    width: 243px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .portfolio__contain {
+        max-width: 720px;
+        padding: 0 15px;
+    }
+  .portlio__content {
+    width: 269px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .portfolio__contain {
+        max-width: 540px;
+        padding: 0 15px;
+    }
+    .portfolio__title h1 {
+        font-size: 3.5rem;
+    }
+  .portlio__content {
+    width: 400px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    .portfolio__contain {
+        max-width: 570px;
+        padding: 0 15px;
+    }
+    .portfolio__title h1 {
+        font-size: 3.2rem;
+    }
+}

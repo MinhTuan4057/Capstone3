@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="W3Layouts.com">
+    <link rel="shortcut icon" href="./img/img1_files/logow3.png" type="image/x-icon">
+    <title>Gallery page – Poochcare Animals and pets</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="./main.js">
+    <link rel="stylesheet" href="./Gallery.html">
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./Gallery.css">
+</head>
+<body class="">
+   <!-- Navbar Tablet -->
+   <div class="nav__tablet">
+    <input type="checkbox" hidden name="" class="menu__close" id="menu">
+    <label for="menu" class="nav__tablet__contain">
+    <ul class="nav__tablet__list">
+      <li>
+        <a href="./home.html">Home</a>
+      </li>
+      <li>
+        <a href="./about.html">About</a>
+      </li>
+      <li>
+        <a href="./index.html">Services</a>
+      </li>
+      <li>
+        <a style="color: var(--primary-color);" href="./Gallery.html">Gallery</a>
+      </li>
+      <li>
+        <a href="./Blog.html">Pages</a>
+      </li>
+      <li>
+        <a href="./contact.html">Contact</a>
+      </li>
+      <div class="nav__icon">
+        <a class="header__search" href="#">
+          <i class="icon__search fa-solid fa-magnifying-glass"></i>
+        </a>
+      </div>
+    </ul>
+  </label>
+    <header id="heading">
+      <div class="contain">
+        <div class="header__nav">
+          <h1 class="header__brand">
+            <a href="#">Pooch Care</a>
+          </h1>
+          <ul class="header__menu">
+            <li class="header__nav__menu">
+              <a href="./home.html">Home</a>
+            </li>
+            <li class="header__nav__menu">
+              <a href="./about.html">About</a>
+            </li>
+            <li class="header__nav__menu">
+              <a href="./index.html">Services</a>
+            </li>
+            <li class="gallery header__nav__menu">
+              <a href="./Gallery.html" style="color: var(--primary-color);">Gallery</a>
+            </li>
+            <li>
+              <label for="header__link" class="header__nav__menu2">
+                <a href="#" class="fanpage">Pages</a>
+                <i class="header__icon fa-solid fa-chevron-down"></i>
+                  <input type="checkbox" hidden name="" class="click__box" id="header__link">
+                 <label for="header__link" class="header__nav__link">
+                  <a class="link__blog" href="./Blog.html">
+                    Blog Posts
+                  </a>
+                  <a class="link__page" href="">Landing page</a>
+                 </label>
+              </label>
+          </li>
+            <li class="header__page">
+              <a href="./contact.html">Contact</a>
+              </li>
+              <li class="header__nav__page">
+                <a class="header__search" href="#">
+                  <i class="icon__search fa-solid fa-magnifying-glass"></i>
+                </a>
+                </li>
+
+              <label for="check__mode" class="header__mode">
+                <input type="checkbox" hidden name="" class="mode" id="check__mode">
+                <label for="check__mode" class="dark2">
+                <span class="icon__mode iconify" data-icon="material-symbols:dark-mode-outline"></span>
+              </label>
+              <label for="check__mode" class="sun">
+                <span class="icon__mode2 iconify" data-icon="ph:sun"></span>
+              </label>
+            </label>
+           <!-- tablet -->
+           <label for="menu" class="btn__menu">
+    <div class="header__nav__btn">
+        <i class="fa-solid fa-bars" onclick="changeIcon(this)"></i>
+    </div>
+           </label>
+          </ul>
+   </div>
+          </div>
+    </header>
+  </div>
+    <div class="header__top"></div>
+
+    <!-- Section -->
+    <section class="section" id="img"> 
+      <div class="section__contain">
+        <div class="section__title">
+          <h2>Gallery</h2>
+          <ul class="section__services">
+            <a href="./home.html">Home</a>
+            »  Gallery Page
+          </ul>
+        </div>
+      </div>
+    </section>
+
+   <!-- Portfolio -->
+        <div class="portfolio py-5">
+          <div class="portfolio__contain GPGallery py-md-4 py-3">
+            <div class="portfolio__title">
+              <h2>VIEW GALLERY</h2>
+              <h1>Latest Gallery</h1>
+            </div>
+        <div class="row galler-top portfolio mt-lg-5 mt-4">
+
+          <div class="col-md-4 protfolio-item portlio__row">
+  
+            <a href="./img/img1_files/g1.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g1.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+            <a href="./img/img1_files/g2.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g2.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+            <a href="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/g7.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g7.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+          </div>
+  
+          <div class="col-md-4 protfolio-item portlio__row">
+  
+            <a href="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/g3.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g3.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+            
+            <a href="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/g4.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g4.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+            <a href="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/g8.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g8.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+          </div>
+  
+          <div class="col-md-4 protfolio-item portlio__row">
+  
+            <a href="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/g5.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g5.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+            <a href="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/g6.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g6.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+            <a href="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/images/g9.jpg" data-lightbox="example-set" class="portlio__hover" data-title="lorem ipsum dolor sit amet">
+              <figure>
+                <img src="./img/img1_files/g9.jpg" alt="product" class="portfolio__img">
+              </figure>
+            </a>
+  
+          </div>
+  
+        </div>
+
+    </div>
+   </div>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__contain">
+        <div class="footer__item">
+          <div class="footer__contact">
+            <h2>Contact information</h2>
+            <ul class="footer__info">
+              <div class="tex">
+              <li>Address <p class="place">: #135 block, Barnard St. Brooklyn, London 10036, UK</p> 
+              </p>
+              </li>
+              <p class="london">Brooklyn, London 10036, UK</p> 
+            </div>
+              <li>Phone
+                
+                <a href="tel:+(12)234-11-2">: +(12)234-11-24</a>
+                </li>
+              <li>Email 
+                <a href="mailto:example@mail.com">: example@mail.com</a>
+              </li>
+            </ul>
+            <div class="footer__icon">
+              <a href="https://www.facebook.com/w3layouts/">
+                <i class="link__icon fa-brands fa-facebook-f"></i>
+              </a>
+              <a href="https://twitter.com/W3layouts">
+                <i class="link__icon fa-brands fa-twitter"></i>
+              </a>
+              <a href="https://dribbble.com/w3layouts">
+                <i class="link__icon fa-brands fa-dribbble"></i>
+              </a>
+              <a href="https://myaccount.google.com/intro/profile">
+                <i class="link__icon fa-brands fa-google"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+          <div class="footer__right">
+            <div class="footer__item2 item3">
+              <h2>Archives</h2>
+              <a href="#">December 2020</a>
+            </div>
+           
+
+            <div class="footer__item2">
+              <h2>Categories</h2>
+              <div class="footer__list">
+                <a href="https://wp.w3layouts.com/poochcare/category/animals/">Animals</a>
+                <a href="https://wp.w3layouts.com/poochcare/category/pets/">Pets</a>
+                <a href="https://wp.w3layouts.com/poochcare/category/pets-care/">Pets care</a>
+                <a href="https://wp.w3layouts.com/poochcare/category/uncategorized/">Uncategorized</a>
+              </div>
+            </div>
+            <div class="footer__item2">
+              <h2>Meta</h2>
+              <div class="footer__list">
+                <a href="https://wp.w3layouts.com/poochcare/wp-login.php">Log in</a>
+                <a href="https://wp.w3layouts.com/poochcare/feed/">Entries feed</a>
+                <a href="https://wp.w3layouts.com/poochcare/comments/feed/">Comments feed</a>
+                <a href="https://wordpress.org/">WordPress.org</a>
+              </div>
+            </div>
+      </div>
+      </div>
+      
+      <div class="footer__line">
+      <div class="footer__year">
+        <p>© 2023 All Rights Reserved by
+          <a href="https://w3layouts.com/">W3Layouts.</a>
+        </p>
+      </div>
+    </div>
+    </footer>
+
+  <a href="#" class="btn cd-top text-replace js-cd-top cd-top--is-visible " id="backtop">
+      <i class="btn__icon fa-solid fa-chevron-up"></i>
+    </a>
+
+
+    <!-- check_mode.className = "bi sun";  -->
+      <!-- Boostrap -->
+      <script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+      <script src="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js" integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      <script src="../js/Counting-Up-To-Numerical-Values-On-Scroll-jQuery-Countup-js 2/jquery.countup.min.js"></script>
+      <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+      <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+      <script src="./js/jquery.countup.min.js"></script>
+      <script src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/js/lightbox-plus-jquery.min.js"></script>
+      <!-- <div id="lightboxOverlay" class="lightboxOverlay" style="width: 1792px; height: 1880px; display: block;"></div>
+      <div id="lightbox" class="lightbox" style="display: block; top: 811px; left: 0px;">
+        <div class="lb-outerContainer" style="width: 457px; height: 331px;">
+          <div class="lb-container">
+            <img class="lb-image" src="./img/img1_files/g1.jpg" style="display: block; width: 449px; height: 323px;">
+            <div class="lb-nav" style="display: block;"><a class="lb-prev" href="" style="display: block;"></a>
+              <a class="lb-next" href="" style="display: block;"></a>
+            </div><div class="lb-loader" style="display: none; opacity: 0.00154133;">
+              <a class="lb-cancel"></a>
+            </div>
+          </div>
+        </div>
+        <div class="lb-dataContainer" style="display: block; width: 457px;">
+          <div class="lb-data">
+            <div class="lb-details">
+              <span class="lb-caption" style="display: inline;">lorem ipsum dolor sit amet</span>
+              <span class="lb-number">Image 7 of 9</span>
+            </div>
+            <div class="lb-closeContainer">
+              <a class="lb-close"></a>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <script src="https://wp.w3layouts.com/poochcare/wp-content/themes/Pooch-care/assets/js/owl.carousel.js"></script>
+      <!-- Btn change-->
+      <script>
+        let changeIcon = function(icon) {
+          icon.classList.toggle('fa-xmark')
+        }
+      </script>
+
+      <!-- btn back to top -->
+      <script>
+       $(document).ready(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+            $('#backtop').fadeIn();
+          } else {
+            $('#backtop').fadeOut();
+          }
+        });
+        $("#backtop").click(function() {
+          $('html, body').animate({
+            scrollTop: 0
+          }, 800);
+        });
+       });
+      </script>
+     
+      <!-- Header scroll -->
+      <script>
+      $(document).ready(function() {
+        $(window).scroll(function() {
+          if ($(this).scrollTop()) {
+            $('header').addClass('sticky');
+          } else {
+            $('header').removeClass('sticky');
+          }
+        });
+      });
+    </script>
+</body>
+<script>
+  const body = document.body;
+  const check_mode = document.querySelector ('#check__mode');
+  let mode = localStorage.getItem('darkmode');
+  if (mode== 'true'){
+  body.classList.add('dark')
+  }
+  check_mode.addEventListener('click', () =>{
+
+
+   let mode = body.classList.toggle('dark');
+   localStorage.setItem('darkmode', mode);
+  });
+ 
+
+</script>
+</html>

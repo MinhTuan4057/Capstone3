@@ -1,0 +1,217 @@
+/* Content */
+.content {
+    padding: 48px 0 0 0;
+}
+.content__contain {
+    max-width: 1200px;
+    margin: auto;
+    padding: 48px 25px 16px 25px;
+}
+.content__item {
+    display: flex;
+    align-items: center;
+}
+.content__img {
+    width: 500%;
+    height: auto;
+    margin-right: 73px;
+}
+.img__dog {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.content__info {
+    padding-top: 10px;
+    width: 50%;
+}
+.content__info p {
+    font-size: 1.8rem;
+    color: var(--secondary);
+    letter-spacing: 1px;
+    line-height: 1.3rem;
+}
+.content__info h1 {
+    font-size: 4rem;
+    color: var(--heading-color);
+    padding-bottom: 10px;
+    font-weight: 600;
+    width: 300px;
+}
+.content__info span {
+    font-size: 1.9rem;
+    word-wrap: break-word;
+    display: block;
+    width: 512px;
+    margin-bottom: 36px;
+    color: #696969;
+}
+.content__info a {
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--heading-color);
+    border-bottom: 2px solid var(--primary-color);
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    text-transform: capitalize;
+}
+.content__info a:hover {
+    color: var(--primary-color);
+}
+.section__line {
+    width: 100%;
+    border: 1px solid #f7f9f7;
+    margin: 80px auto;
+}
+.section__content2 {
+    display: flex;
+}
+.content__img2 {
+    /* height: 397px; */
+    margin-left: 73px;
+}
+@media only screen and (min-width: 1280px) and (max-width: 1490px) {
+    .content__contain {
+    padding: 48px 25px 16px 15px;
+}
+}
+@media only screen and (min-width: 1200px) and (max-width: 1280px) {
+    .content__contain {
+    padding: 48px 25px 16px 45px;
+}
+    .content__info {width: 50%;}
+    .content__img {
+        width: 50%;
+    }
+    .content__info span {
+        word-wrap: break-word;
+        width: 500px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .content__contain {
+    padding: 48px 25px 16px 15px;
+    max-width: 960px;
+}
+    .content__info {
+        word-wrap: break-word;
+        width: 44%;
+    }
+    .content__img {
+        width: 56%;
+        height: auto;
+    }
+    .img__dog {
+        height: auto;
+        width: 100%;
+    }
+    .content__info span {
+        word-wrap: break-word;
+        width: 426px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    .content {
+        padding: 0;
+    }
+    .content__contain {
+    padding: 48px 25px 16px 15px;
+    max-width: 720px;
+}
+    .content__item {
+    display: block;
+}
+    .content__info h1 {font-size: 3.5rem;width: 398px;}
+    .section__line {margin: 40px auto;}
+    .section__content2 {flex-direction: column-reverse;/* margin: auto; */}
+    .content__info {width: 100%;}
+    .content__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+     .content__img2 {
+         /* width: 100%; */
+         margin: 0 0 20px 0;
+     }
+     .line__bottom {
+        margin: 30px 0;
+     }
+}
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+    .content {
+        padding: 0;
+    }
+    .content__contain {
+    padding: 48px 25px 16px 15px;
+    max-width: 540px;
+}
+    .content__item {
+    display: block;
+}
+    .content__info h1 {
+        font-size: 3.5rem;
+        width: 398px;
+    }
+    .section__line {
+        margin: 30px auto;
+    }
+    .section__content2 {
+        flex-direction: column-reverse;
+    }
+    .content__info {
+        width: 100%;
+    }
+    .content__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+     .content__img2 {
+         margin: 0 0 20px 0;
+     }
+     .line__bottom {
+        margin: 30px 0;
+     }
+}
+@media only screen and (min-width: 480px) and (max-width: 576px) {
+    .content {
+        padding: 0;
+    }
+    .content__contain {
+    padding: 48px 25px 16px 15px;
+    max-width: 570px;
+}
+    .content__item {
+    display: block;
+}
+    .content__info h1 {
+        font-size: 3.5rem;
+        width: 398px;
+    }
+    .section__line {
+        margin: 30px auto;
+    }
+    .section__content2 {
+        flex-direction: column-reverse;
+    }
+    .content__info {
+        width: 100%;
+    }
+    .content__img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+     .content__img2 {
+         margin: 0 0 20px 0;
+     }
+     .line__bottom {
+        margin: 30px 0;
+     }
+}
+
+
+
+
+
+
+
+
